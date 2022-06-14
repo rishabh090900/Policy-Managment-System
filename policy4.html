@@ -1,0 +1,12 @@
+
+<php?
+include("connect.php");
+	$sql="SELECT*FROM policy;";
+	$result=mysqli_query($conn,$sql);
+	$total=mysqli_num_rows($result);
+	if($total!=0){
+		echo "table has records";
+	}
+	else{
+	echo "no recoeds";}
+?>

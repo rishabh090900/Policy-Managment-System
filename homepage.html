@@ -1,0 +1,227 @@
+<!doctype html>
+<html
+<head>
+<title>Insurance Company</title>
+<meta name="viewport" content="width=device-width, initial-scale=0.8">
+</head>
+<style>
+
+body {
+  background-image: url('one.jfif');
+  background-size:100%;
+  
+}
+
+header{
+
+font-size:80px;
+padding:15px;
+color:rgb(255, 255, 255,0.8);
+text-align: center;
+
+
+}
+.policy{
+padding-top:50px;
+font-size:50px;
+padding-bottom:50px;
+background-color:rgb(255, 255, 255,0.3);
+width:32.8042%;
+float:left;
+margin-top:10px;
+text-align:center;
+margin-right:10px;
+height:480px;
+
+}
+
+nav{
+margin-top:10px;
+padding:10px;
+
+background-color:rgb(255, 255, 255,0.5);
+}
+.navi{
+background-color:rgb(255, 255, 255,0.0);
+border:none;
+text-align:center;
+text-decoration:none;
+overflow:hidden;
+}
+.navi a{
+float:left;
+display:block;
+color:white;
+text-align-center;
+font-weight:bold;
+font-size:25px;
+padding:-2px 5px;
+text-decoration:none;
+}
+.navi a.right{
+float:right;
+padding: 10px 10px;
+}
+.navi a:hover{
+background-color:rgb(255, 255, 255,0.3);
+color:black;
+cursor:pointer;
+border-radius:10px;
+}
+select{
+margin-top:30px;
+size:20px 10px;
+width: 100%;
+  padding: 12px 20px;
+ font-size:30px;
+ background-color:rgb(0, 128, 128,0.2);
+ border:none;
+}
+.button{
+    margin-top:50px;
+	background-color:rgb(255, 255, 255,0.0);
+	
+	font-family:Garamond;
+}
+.button a
+{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 24px;
+	font-weight:bold;
+    overflow: hidden;
+    transition: 0.1s;
+}
+.button a:hover
+{
+    color: black;
+    background:rgb(7, 115, 136,0.5);
+    box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+    transition-delay: 0.5s;
+	border-radius:10px;
+}
+.button a span
+{
+    position: absolute;
+    display: block;
+}
+.button a span:nth-child(1)
+{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#2196f3);
+}
+.button a:hover span:nth-child(1)
+{
+    left: 100%;
+    transition: 1s;
+} 
+.button a span:nth-child(2)
+{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#2196f3);
+}
+.button a:hover span:nth-child(2)
+{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+.button a span:nth-child(3)
+{
+    top: -100℅;
+    right: 0%;
+    width: 2px%;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#2196f3);
+}
+.button a:hover span:nth-child(3)
+{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+.button a span:nth-child(4)
+{
+    bottom: -100℅;
+    left: 0%;
+    width: 2px%;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#2196f3);
+}
+.button a:hover span:nth-child(4)
+{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+footer{
+color:rgb(255, 255, 255,0.8);;
+text-align:center;
+padding-top:580px;
+font-size:30px;
+}
+</style>
+<body >
+<div id="wrapper">
+<header>Insurance Company</header>
+<section>
+<nav>
+<button class="navi"><a  href="homepage.html" >Homepage |</a></button> 
+ <button class="navi"> <a href="buy.html">Buy Policy |</a></button>   
+<button class="navi"><a href="about.html">About Us </a></button>  
+ <button class="navi" Style="float:right"> <a href="signup.html">Register</a></button>  
+
+ <button class="navi" Style="float:right"> <a href="payment.html" >Payment |</a></button> 
+
+</nav>
+<article class="policy">
+Policy
+<form>
+<label for="Policy" style="color:rgb(255, 255, 255,0.8)">Search for Policy</label>
+<select id="policies" name="policy"><br>
+<option>P1</option>
+<option>P2</option>
+<option>P3</option>
+</select>
+<button class="button" ><a href="policy.html">ADD POLICY</a></button>
+</article>
+<article class="policy">
+Company<br>
+<form>
+<label for="Policy" style="color:rgb(255, 255, 255,0.8)">Search for Company</label>
+<select id="policies" name="policy"><br>
+<option>Tata</option>
+<option>Hdfc</option>
+<option>Muthuth</option>
+</select>
+<button class="button" ><a href="Company.html">ADD Company</a></button>
+</article>
+<article class="policy">
+Agent<br>
+<form>
+<label for="Policy" style="color:rgb(255, 255, 255,0.8)">Search for Agent</label>
+<select id="policies" name="policy"><br>
+<option>Jay Electronics</option>
+<option>Dubey Mobiles</option>
+<option>Singhal Telecom</option>
+</select>
+<button class="button" ><a href="agent.html">ADD Agent</a></button>
+</article>
+</section>
+<footer>
+<h1>Buy Policy At Minimum Cost</h1>
+</footer>
+</div>
+</body>
+</html>

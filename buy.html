@@ -1,0 +1,200 @@
+<!doctype html>
+<html
+<head>
+<title>Insurance Company</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+body {
+  background-image: url('one.jfif');
+  background-size:100%;
+}
+header{
+
+font-size:70px;
+padding:20px;
+color:rgb(255, 255, 255,0.8);
+text-align: center;
+
+
+}
+.policy{
+padding-top:50px;
+font-size:50px;
+padding-bottom:50px;
+background-color:rgb(255, 255, 255,0.3);
+width:32.8042%;
+float:left;
+margin-top:10px;
+text-align:center;
+margin-right:10px;
+height:500px;
+
+}
+
+nav{
+margin-top:10px;
+padding:10px;
+
+background-color:rgb(255, 255, 255,0.5);
+}
+.navi{
+background-color:rgb(255, 255, 255,0.0);
+border:none;
+text-align:center;
+text-decoration:none;
+overflow:hidden;
+}
+.navi a{
+float:left;
+display:block;
+color:white;
+text-align-center;
+font-weight:bold;
+font-size:25px;
+padding: 10px 5px;
+text-decoration:none;
+}
+.navi a.right{
+float:right;
+padding: 10px 10px;
+}
+.navi a:hover{
+background-color:rgb(255, 255, 255,0.3);
+color:black;
+cursor:pointer;
+border-radius:10px;
+}
+select{
+margin-bottom:15px;
+margin-left:20%;
+margin-right:20%;
+
+width: 60%;
+  
+ font-size:30px;
+ background-color:rgb(255, 255, 255,0.2);
+ border:none;
+ text-align:center;
+ 
+}
+input[type=text] {
+width:60%;
+background-color:rgb(255, 255, 255,0.2);
+border:none;
+height:30px;
+
+margin-bottom:15px;
+margin-left:20%;
+
+margin-right:20%;
+font-size:20px;
+
+}
+textarea {
+width:60%;
+background-color:rgb(255, 255, 255,0.2);
+border:none;
+height:30px;
+
+margin-bottom:15px;
+margin-left:20%;
+
+margin-right:20%;
+font-size:20px;
+
+}
+input[type=date] {
+width:60%;
+background-color:rgb(255, 255, 255,0.2);
+border:none;
+height:30px;
+
+margin-bottom:15px;
+margin-left:20%;
+
+margin-right:20%;
+font-size:20px;
+
+}
+input[type=number] {
+width:60%;
+background-color:rgb(255, 255, 255,0.2);
+border:none;
+height:30px;
+margin-bottom:15px;
+margin-left:20%;
+font-color:white;
+margin-right:20%;
+font-size:20px;
+}
+
+input[type=email] {
+width:60%;
+background-color:rgb(255, 255, 255,0.2);
+border:none;
+height:30px;
+margin-bottom:15px;
+margin-left:20%;
+font-color:white;
+margin-right:20%;
+font-size:20px;
+}
+input[type=submit]{
+width:60%;
+background-color:rgb(0, 255, 255,0.2);
+border:none;
+height:30px;
+margin-bottom:15px;
+margin-left:20%;
+margin-right:20%;
+
+}
+form{
+color:white;
+font-size:30px;
+text-align:center;
+background-color:rgb(255, 255, 255,0.1);
+width:60%;
+margin-left:20%;
+}
+
+footer{
+color:rgb(255, 255, 255,0.8);;
+text-align:center;
+margin-top:90px;
+font-size:30px;
+}
+</style>
+<body >
+<header>Insurance Company</header>
+<section>
+<nav>
+<button class="navi"><a  href="homepage.html" >Homepage</a></button> 
+ <button class="navi"> <a href="buy.html">Buy Policy</a></button>   
+<button class="navi"><a href="about.html">About Us</a></button>  
+ <button class="navi" Style="float:right"> <a href="signup.html">Register</a></button>  
+
+ <button class="navi" Style="float:right"> <a href="payment.html" >Payment</a></button> 
+
+</nav>
+<form action="buy.php" method="POST">
+<label for="Pol_id">Policy ID:</Label><br>
+<input type="text" id="Pol_id" name="Pol_id" required><br>
+<label for="cusid">Customer ID:</Label><br>
+<input type="text" id="cusid" name="cusid" required><br>
+<label for="Pay_id">Payment No.:</Label><br>
+<input type="text" id="Pay_id" name="Pay_id" required><br>
+<label for="Agent_id">Agent ID:</Label><br>
+<input type="text" id="Agent_id" name="Agent_id" required><br>
+<label for="issue_date">Policy Issue Date:</Label><br>
+<input type="date" id="issue_date" name="issue_date" required><br>
+<input type="Submit">
+</form>
+
+</section>
+<footer>
+<h1>Buy Policy At Minimum Cost</h1>
+</footer>
+</body>
+</html>
